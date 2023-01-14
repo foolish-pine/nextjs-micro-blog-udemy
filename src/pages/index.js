@@ -27,7 +27,7 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout>
+    <Layout home>
       <section>
         <p className={utilStyles.headingMd}>プロフィール文です。</p>
       </section>
